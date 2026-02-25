@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val newsList = listOf(
-            NewsItem("Breaking: Explosion in Lebanon",   "A major Explosion struck downtown today causing damage.", R.mipmap.ic_launcher),
-            NewsItem("Sports: Sagesse Team Wins Championship",   "The local team won the national championship last night.",  R.mipmap.ic_launcher),
-            NewsItem("Tech: New iPhone Released",         "A new flagship smartphone was unveiled at the expo.",       R.mipmap.ic_launcher),
-            NewsItem("Health: New COVID Vaccine Approved in Lebanon",     "Health officials approved a new vaccine for the virus.",    R.mipmap.ic_launcher),
-            NewsItem("Economy: Lebanese pound Hit Record High", "Stock markets reached an all-time high this morning.",      R.mipmap.ic_launcher),
-            NewsItem("Weather: Storm Warning Issued",    "Authorities issued a storm warning for the coastal areas.", R.mipmap.ic_launcher)
+            NewsItem("Beirut Traffic Reduced After New Road Opens",   "The new coastal highway section officially opened today, easing morning congestion for thousands of drivers.", R.mipmap.ic_launcher),
+            NewsItem("Environment: Rare Sea Turtle Spotted in Tyre",   "Marine biologists reported a rare loggerhead turtle returning to Lebanon’s southern shores.",  R.mipmap.ic_launcher),
+            NewsItem("Travel: Beirut Airport Adds 5 New Destinations",         "Passengers can now fly directly to Madrid, Stockholm, Muscat, Yerevan, and Casablanca.",       R.mipmap.ic_launcher),
+            NewsItem("Food: New Shawarma Trend Goes Viral",     "A Beirut restaurant introduced a spicy mango shawarma that attracted massive crowds.",    R.mipmap.ic_launcher),
+            NewsItem("Weather: Heavy Rain Expected Tomorrow", "Meteorologists warn of heavy rainfall and strong winds in coastal areas starting early morning.",      R.mipmap.ic_launcher),
+            NewsItem("Safety: New Fire Prevention Campaign Launched",    "Authorities urge residents to check gas cylinders and electrical wiring before winter..", R.mipmap.ic_launcher)
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
